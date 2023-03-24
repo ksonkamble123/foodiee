@@ -1,0 +1,185 @@
+@font-face {
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+
+.title{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #2F1B25;
+    background-image: linear-gradient(#CCB7AE, #706677);
+    font-family: myfont;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #141115;
+    box-shadow: 3px 3px 3px#141115;
+    color: white;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    color: #011638;
+    text-shadow: 1px 1px 3px white;
+}
+a{
+    color: #011638;
+    text-shadow: 0px 0px 1px black;
+}
+.biryani{
+    margin-right: 115px;
+}
+.pizza{
+    margin-left: 120px;
+}
+.pricep{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.priceb{
+    font-size: 35px;
+    margin-right: 100px;
+    margin-top: 0px;
+    
+}
+.pagebi{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300;
+    display: block;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.Rs{
+    font-size: 40px;
+    display: block;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 3px 5px white;
+}
+.order{
+    font-size: 40px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.name{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.phone{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.address{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.email{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+body{
+    background-image: linear-gradient(#8DB38B, #6D5A72);
+}
+.img-pizza{
+    background-image: url(pizza.jpg);
+    height: 200px;
+    size: cover;
+    border: 2px solid black;
+    margin-left: 50px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #808A9F;
+}
+.img-biryani{
+    background-image: url(biryani.jpg);
+    height: 200px;
+    size: cover;
+    border: 2px solid black;
+    width: 200px;
+    margin-right: 50px;   
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #808A9F;
+}
+.food{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-pizza:hover{
+    border: 10px solid black;
+}
+.img-biryani:hover{
+    border: 10px solid black;
+}
+.imgp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px sandybrown;
+}
+.go-back{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    font-size: 20px;
+}
+
